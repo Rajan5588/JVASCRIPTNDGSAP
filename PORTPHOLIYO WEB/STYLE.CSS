@@ -1,0 +1,331 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     
+}
+.nav ul li h1{
+     color: chartreuse;
+     font-size: 21px;
+}
+.nav ul li h1:hover{
+
+     color: rgb(209, 189, 11);
+     font-size: 25px;
+     
+
+}
+
+.webcontainer{
+     height: 100vh;
+     width: 100vw;
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     flex-direction: row;
+}
+
+.nav{
+    
+     color: rgb(230, 154, 213);
+     min-width: 16vw;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     text-align: center;
+     
+     font-weight: 700;
+}
+.btn{
+    
+     padding: 0.6rem;
+     background: none;
+     background-color: rgb(32, 155, 236);
+     border-radius: 5px;
+     cursor: pointer;
+     box-shadow: 0 0 10px rgb(0, 53, 167);
+     transition: 0.4s;
+}
+.btn:hover{
+     padding: 0.7rem;
+     background-color: rgb(30, 245, 11);
+     box-shadow: 0 0 12px rgb(6, 226, 35);
+}
+.navJs{
+     display: none;
+}
+.card{
+     margin-block: 30px 10px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.card i{
+     font-size: 27px;
+}
+.nav ul li a{
+     text-decoration: none;
+     list-style: none;
+}
+.nav ul li a:hover{
+     background-color: rgba(66, 66, 117,1);
+     color: red;
+}
+main{
+   
+     max-width:80%;
+     max-height: 100vh;
+}
+
+.mainFram{
+     max-width:80vw;
+     height: 200px;
+   
+     margin-left: 60px;
+
+     
+}
+
+#WEL{
+     margin-top: 20px;
+     color: chartreuse;
+     font-size:30px;
+      text-align: right;
+animation-name: rotate;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-duration: 18s;
+
+}
+@keyframes rotate {
+      0%{
+          text-align: right;
+          font-size: 30px;
+      }
+      100%{
+          text-align: left;
+          font-size: 25px;
+          color: blueviolet;
+      }
+}
+.h1{
+     margin-top: 80px;
+     color: rgb(219, 101, 4);
+     font-size: 40px;
+
+}
+.name{
+     font-size: 35px;
+     color: rgb(252, 188, 12);
+     text-shadow: 0 0 7px yellowgreen;
+}
+.imgItem{
+     width: 290px;
+     height:290px;
+     float: inline-end;
+     margin-left: 60%;
+     display: flex;
+     flex-direction: column;
+}
+.imgForm{
+     width: 270px;
+     height:270px;
+align-items: center;
+text-align: center;
+border-radius: 50%;
+
+}
+.imgForm img{
+     width: 260px;
+     height:260px;
+     text-align: center;
+     align-items: center;
+     background-position: center;
+     background-size: cover;
+     border: 2px solid red;
+     border-radius: 50%;
+     box-shadow: 0 0 10px rgb(228, 74, 2);
+     background-repeat: no-repeat;
+}
+.text{
+     text-align: center;
+     height: 100px;
+     width: 200px;
+     align-items: center;
+     margin-left: 17px;
+     background-color: aqua;
+     box-shadow: 0 0 7px rgb(3, 6, 163);
+     border-radius: 7px;
+}
+
+.line{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-style: oblique;
+     gap: 17px;
+     color: blanchedalmond;
+}
+.lineP{
+     color: rgb(202, 144, 194);
+}
+
+.api{
+     margin-top: 80px;
+     max-width: 44vw;
+     display: flex;
+     justify-content: space-around;
+}
+.api a i{
+     font-size: 30px;
+     overflow: hidden;
+     transition:0.3s;
+}
+.api a i:hover{
+     font-size: 32px;
+     
+     box-shadow: 0 0 20px rgb(14, 2, 190);
+     border: 1px solid blueviolet;
+     border-radius: 50%;
+     z-index: -1;
+
+}
+
+#Education{
+     margin-top:250px;
+     gap: 40px;
+     font-family: sans-serif;
+
+}
+#Education:hover{
+     font-weight: 700;
+     text-shadow: 0 0 14px yellow;
+}
+.e{
+font-size: 80px;
+     color: rgb(11, 233, 233);
+     text-shadow: 0 0 10px rgb(252, 248, 20);
+     margin-top: 10px;
+}
+.location{
+     color: rgb(247, 116, 9);
+     text-shadow: 0 0 10px chartreuse;
+     margin-top:10px;
+}
+.coll{
+     color: rgb(232, 183, 238);
+     text-shadow: 0 0 10px chartreuse;
+     margin-top: 10pxpx;
+}
+.know{
+     color: rgb(32, 9, 165);
+     text-shadow: 0 0 10px chartreuse;
+     margin-top: 10px;
+}
+.boxe{
+    margin-top: 190px;
+     min-width:70% ;
+     display: flex;
+    justify-content: space-between;
+     flex-direction: row;
+     flex-wrap: wrap;
+     overflow: hidden;
+     box-sizing: border-box;
+     text-align: center;
+     
+ 
+ }
+ .bos{
+     margin-top: 40px;
+     height: 300px;
+     width: 240px;
+     background-color: rgb(54, 2, 78);
+     color: white;
+     flex-wrap: wrap;
+     margin: 17px;
+     overflow: hidden;
+     border: 2px solid rgb(189, 179, 179);
+     box-sizing: border-box;
+     border-radius: 20px;
+     border: none;
+     transition: 0.5s;
+     transition-timing-function:ease-in-out ;
+     display: flex;
+     flex-direction: column;
+     
+ 
+ }
+ .bos:hover{
+     margin-top:5px;
+     overflow: hidden;
+     border-top: 3px solid rgba(151, 151, 182,0.6);
+ 
+ }
+ .v{
+     color: blueviolet;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .p{
+     margin-top: 16px;
+     color: aquamarine;
+ }
+ .one{
+     margin-top:80px;
+     padding: 10px 14px;
+     background-color: rgb(248, 165, 151);
+     color: rgb(5, 5, 5);
+     border: 2px solid blue;
+     border: none;
+     box-shadow: 1px 1px rgb(8, 180, 172);
+     border-radius: 10px;
+     transition-timing-function: ease-in;
+     transition-duration: 0.7s;
+     
+     
+ }
+ .one:hover{
+     padding: 10px 15px;
+     background-color: rgb(241, 7, 7);
+     color: rgb(206, 9, 180);
+     box-shadow:-1.7px -1.7px rgb(226, 230, 6);
+ }
+
+ #contact{
+     height: 300px;
+     width: 70%;
+     
+     margin-top: 160px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+
+ }
+ #contact input{
+     outline: none;
+     border: none;
+     font-size: large;
+     border-radius: 0.2rem;
+     box-shadow: 0px 0 7px rgb(110, 123, 128);
+
+ }
+ #lebel{
+     color: chartreuse;
+ }
+ #pass{
+     width: 80%;
+ }
+ .con{
+     color: rgb(206, 176, 5);
+ }
+ #sumi{
+     align-items: center;
+     margin-left: 50%;
+ }
+
+ .h5{
+     color: green;
+     font-size: 40px;
+     text-align: center;
+ }

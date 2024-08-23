@@ -1,0 +1,66 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+html,body{
+     height: 100%;
+     width: 100%;
+}
+
+body{
+     background-color: rgb(86, 114, 114);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.box{
+
+     height: 450px;
+     width: 350px;
+     background-color: white;
+     border: 2px solid black;
+     border-radius: 15px;
+ overflow: hidden;
+     position: relative;
+     
+}
+.storiya{
+     height: 110px;
+     width: 100%;
+     border-bottom: 2px solid rgb(206, 199, 186);
+     padding-top: 15px;
+   white-space: nowrap;
+   overflow-x: auto;
+   overflow-y: hidden;
+}
+
+.storiya::-webkit-scrollbar{
+     display: none;
+}
+.story{
+     margin-right: 5px;
+     height: 80px;
+     width: 80px;
+     border-radius: 50%;
+     border: 2px solid red;
+     overflow: hidden;
+     display: inline-block;
+
+}
+.story img{
+     height: 100%;
+     width: 100%;
+     box-shadow: 0 0 6px greenyellow;
+     object-fit: cover;
+     object-position: center;
+}
+
+.full-screen{
+     height: 98%;
+     width: 100%;
+     background-size: cover;
+     position: absolute;
+     background-position: center;
+     display: none;
+}
